@@ -4,7 +4,7 @@
 #
 Name     : perl-Metrics-Any
 Version  : 0.06
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.06.tar.gz
 Summary  : 'abstract collection of monitoring metrics'
@@ -100,12 +100,12 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter/File.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter/Null.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter/Stderr.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter/Tee.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Adapter/Test.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/AdapterBase/Stored.pm
-/usr/lib/perl5/vendor_perl/5.30.3/Metrics/Any/Collector.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/File.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Null.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Stderr.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Tee.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Test.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/AdapterBase/Stored.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Collector.pm
