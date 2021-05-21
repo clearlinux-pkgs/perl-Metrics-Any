@@ -100,12 +100,12 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/File.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Null.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Stderr.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Tee.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Adapter/Test.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/AdapterBase/Stored.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Metrics/Any/Collector.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/File.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Null.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Stderr.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Tee.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Test.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/AdapterBase/Stored.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Collector.pm
