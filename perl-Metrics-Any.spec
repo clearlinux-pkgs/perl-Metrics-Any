@@ -4,7 +4,7 @@
 #
 Name     : perl-Metrics-Any
 Version  : 0.06
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.06.tar.gz
 Summary  : 'abstract collection of monitoring metrics'
