@@ -4,7 +4,7 @@
 #
 Name     : perl-Metrics-Any
 Version  : 0.07
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.07.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Metrics-Any-0.07.tar.gz
 Summary  : 'abstract collection of monitoring metrics'
@@ -100,12 +100,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/File.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Null.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Stderr.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Tee.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Adapter/Test.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/AdapterBase/Stored.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Metrics/Any/Collector.pm
+/usr/lib/perl5/*
